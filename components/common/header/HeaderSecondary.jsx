@@ -9,7 +9,7 @@ export default function HeaderSecondary() {
         </Link>
       </div>
 
-      <div className="header-search d-lg-none">
+      <div className="header-search d-block d-lg-none">
         <ul>
           <li>
             <Link href="/" title="Menu">
@@ -25,17 +25,18 @@ export default function HeaderSecondary() {
         </ul>
       </div>
 
-      <div className="header-support d-none">
+      <div className="header-support d-none d-lg-block">
         <ul>
           <li>
-            <a href="tel:+07413456" title="Call us">
-              Toll Free 1-977-666-1840
+            <a href="tel:+0741123456" title="Call us">
+              <i className="fa-solid fa-phone"></i>
+              Toll Free 1-877-666-1840
             </a>
           </li>
 
           <li>
-            <a href="mailto:wtc@pixellab.ro" title="Email us">
-              office@treadaffair.com
+            <a href="mailto:wtv@pixellab.ro" title="Email us">
+              office@traidaffairs.com
             </a>
           </li>
         </ul>
@@ -46,6 +47,7 @@ export default function HeaderSecondary() {
           <li>
             <Link href="/" title="Cart">
               <i className="fa-solid fa-cart-shopping"></i>
+              <span className="qty d-none d-lg-flex">3</span>
             </Link>
           </li>
 
