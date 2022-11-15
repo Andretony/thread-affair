@@ -1,22 +1,23 @@
 @import './fonts';
 
+// fontawesome
 @import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-//vom vedea si ghiduri care folosesc
+// vom vedea ghiduri care folosesc ~
 @import '~@fortawesome/fontawesome-free/scss/brands';
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import '~@fortawesome/fontawesome-free/scss/solid';
-//bootstrap
+
+// bootstrap
 @import './../node_modules/bootstrap/scss/bootstrap-reboot';
 @import './../node_modules/bootstrap/scss/bootstrap-grid';
 @import './../node_modules/bootstrap/scss/bootstrap-utilities';
 
-//reset
+// reset
 @import './reset';
-
-//variables
+// variables
 @import './variables';
 
-//common
+// common
 @import './common/index';
 
 body {
@@ -24,3 +25,5 @@ body {
   font-family: 'Roboto', sans-serif;
   color: $gray-primary;
 }
+
+@import './homepage/index';

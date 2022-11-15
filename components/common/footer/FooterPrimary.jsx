@@ -163,19 +163,22 @@ export default function FooterPrimary() {
         <ul>
           <li>
             <a href="tel:+0741123456" title="Call us">
-              <i className="fa-solid fa-phone">Support</i>
+              <i className="fa-solid fa-phone"></i>
+              Support
             </a>
           </li>
 
           <li>
             <a href="tel:+0741123456" title="Call us">
-              <i className="fa-solid fa-phone">Support</i>
+              <i className="fa-solid fa-phone"></i>
+              Support
             </a>
           </li>
 
           <li>
             <a href="tel:+0741123456" title="Call us">
-              <i className="fa-solid fa-phone">Support</i>
+              <i className="fa-solid fa-phone"></i>
+              Support
             </a>
           </li>
         </ul>
