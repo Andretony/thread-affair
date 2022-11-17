@@ -14,10 +14,15 @@ export default function Home() {
       <main className="content">
         <div className="content-main">
           <HomeCatalogPreview></HomeCatalogPreview>
+
           <HomeCatalogPreview></HomeCatalogPreview>
+
           <HomeCatalogPreview></HomeCatalogPreview>
+
           <HomeCatalogPreview></HomeCatalogPreview>
+
           <HomePayment></HomePayment>
+
           <HomeNewsletter></HomeNewsletter>
         </div>
       </main>

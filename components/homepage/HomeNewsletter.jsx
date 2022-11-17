@@ -6,12 +6,14 @@ export default function HomeNewsletter() {
           Subscribe to our
           <span>Newsletter</span>
         </label>
+
         <input
           type="email"
           name="email"
           id="email"
-          placeholder="enter your email address"
+          placeholder="enter you email address"
         ></input>
+
         <button type="submit" title="Subscribe">
           Subscribe
         </button>

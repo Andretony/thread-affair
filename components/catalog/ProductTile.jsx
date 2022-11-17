@@ -4,7 +4,7 @@ export default function ProductTile() {
       <header className="product-tile-header">
         <div className="product-tile-image">
           <picture>
-            <img src="/images/product/product-01a.jpg" alt="Suit"></img>
+            <img src="/images/products/product-01a.jpg" alt="Suit"></img>
           </picture>
 
           <span className="bagde">%</span>
