@@ -1,17 +1,28 @@
+import Link from 'next/link';
+
 export default function ProductTile() {
   return (
     <article className="product-tile">
       <header className="product-tile-header">
         <div className="product-tile-image">
-          <picture>
-            <img src="/images/products/product-01a.jpg" alt="Suit"></img>
-          </picture>
-
+          <Link href="/" title="Thread Affair traveller suit">
+            <picture>
+              <img src="/images/products/product-01a.jpg" alt="Suit"></img>
+            </picture>
+          </Link>
           <span className="bagde">%</span>
         </div>
 
-        <h1 className="product-tile-title">Thread-Affair Traveller Suit</h1>
-        <h2 className="product-tile-subtitle">London fit semi slim</h2>
+        <h1 className="product-tile-title">
+          <Link href="/" title="Thread Affair traveller suit">
+            Thread-Affair Traveller Suit
+          </Link>
+        </h1>
+        <h2 className="product-tile-subtitle">
+          <Link href="/" title="Thread Affair traveller suit">
+            London fit semi slim
+          </Link>
+        </h2>
       </header>
 
       <section className="product-tile-pricing">
